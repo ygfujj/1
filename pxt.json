@@ -1,0 +1,30 @@
+{
+    "name": "1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.7",
+        "servo": "*",
+        "pxt-mfrc522": "github:joy-it/pxt-rfid-mfrc522#1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
